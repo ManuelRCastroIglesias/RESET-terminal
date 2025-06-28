@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="reset-terminal" Version="1.0.0" Language="en-US" Publisher="AI_Dora_And_MRCI" />
+    <DisplayName>RESET-Terminal</DisplayName>
+    <Description>Terminal con reinicio limpio y sin historial para Visual Studio Code</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code" />
+  </Installation>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="package.json" />
+    <Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="icon.png" />
+  </Assets>
+</PackageManifest>

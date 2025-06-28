@@ -1,0 +1,22 @@
+{
+  "name": "reset-terminal",
+  "displayName": "RESET-Terminal",
+  "description": "Terminal con reinicio limpio y sin historial para VS Code.",
+  "version": "1.0.0",
+  "publisher": "AI_Dora_And_MRCI",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Other"],
+  "contributes": {
+    "commands": [
+      {
+        "command": "resetTerminal.execute",
+        "title": "RESET Terminal Now"
+      }
+    ]
+  },
+  "main": "./launch-reset.ps1",
+  "scripts": {},
+  "icon": "icon.png"
+}
